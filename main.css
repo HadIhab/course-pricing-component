@@ -1,1 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+:root {
+    --primary-gradient-start: hsl(236, 72%, 79%);
+    --primary-gradient-end: hsl(237, 63%, 64%);
+
+    --very-light-grayish-blue: hsl(240, 78%, 98%);
+    --light-grayish-blue: hsl(234, 14%, 74%);
+    --grayish-blue: hsl(233, 13%, 49%);
+    --dark-grayish-blue: hsl(232, 13%, 33%);
+}
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    display: block;
+}
+.toggle-switch {
+    display: inline-block;
+    position: relative;
+}
+.toggle-switch .toggle-input {
+    visibility: hidden;
+}
+.toggle-switch .toggle-label {
+    cursor: pointer;
+    background: linear-gradient(90deg, var(--primary-gradient-start) 0%, var(--primary-gradient-end) 100%);
+    width: 50px;
+    height: 28px;
+    position: absolute;
+    top: -3px;
+    left: -17px;
+    border-radius: 2rem;
+    transition: background-color 200ms;
+}
