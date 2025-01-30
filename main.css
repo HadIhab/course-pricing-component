@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 :root {
     --primary-gradient-start: hsl(236, 72%, 79%);
     --primary-gradient-end: hsl(237, 63%, 64%);
@@ -49,4 +49,27 @@ a {
 }
 .toggle-switch .toggle-input:checked + .toggle-label::before {
     transform: translateX(22px);
+}
+body {
+    background-color: var(--very-light-grayish-blue);
+    min-height: 100vh;
+    font-family: 'Montserrat';
+    display: grid;
+    place-content: center;
+}
+.component {
+    text-align: center;
+    position: relative;
+}
+img {
+    position: absolute;
+    z-index: 0;
+}
+.top-img {
+    top: -200px;
+    right: -190px;
+}
+.bottom-img {
+    bottom: -145px;
+    left: -200px;
 }
