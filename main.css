@@ -114,3 +114,15 @@ img {
     justify-content: center;
     gap: .25rem;
 }
+.component .cards-grid .card .cost span {
+    font-size: 3rem;
+}
+.component .cards-grid .card .benefits li {
+    padding: 1rem 3rem;
+    border-bottom: 1px solid var(--primary-gradient-start);
+}
+.component .cards-grid .card:nth-child(2) .cost {
+    min-width: 285px;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--very-light-grayish-blue);
+} 
