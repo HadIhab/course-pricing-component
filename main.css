@@ -158,3 +158,22 @@ img {
     background-color: transparent;
     color: #fff;
 }
+
+@media (max-width: 768px) {
+    img {
+        position: fixed;
+    }
+    .component h1 {
+        padding-top: 3rem;
+    }
+    .component .toggle-container {
+        margin-bottom: 5rem;
+    }
+    .component .cards-grid .card:nth-child(2) {
+        padding: 1.5rem;
+    }
+    .component .cards-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+}
