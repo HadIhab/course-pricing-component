@@ -73,3 +73,12 @@ img {
     bottom: -145px;
     left: -200px;
 }
+.component .toggle-container {
+    margin: 2rem auto;
+    max-width: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
