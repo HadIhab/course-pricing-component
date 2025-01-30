@@ -125,4 +125,36 @@ img {
     min-width: 285px;
     padding-bottom: 1rem;
     border-bottom: 1px solid var(--very-light-grayish-blue);
-} 
+}
+.component .cards-grid .card:nth-child(2) .benefits li {
+    padding: 1rem 3rem;
+    border-bottom: 1px solid #fff;
+}
+.component .cards-grid .card:nth-child(1) .cost,
+.component .cards-grid .card:nth-child(3) .cost {
+    padding: 1rem 3rem;
+    border-bottom: 1px solid var(--primary-gradient-start);
+}
+.component .cards-grid .card .link-btn {
+    background: linear-gradient(90deg, var(--primary-gradient-start) 0%, var(--primary-gradient-end) 100%);
+    color: #fff;
+    width: 100%;
+    padding: .5rem;
+    margin-top: 1rem;
+    font-weight: 600;
+    border-radius: .25rem;
+}
+.component .cards-grid .card .link-btn:hover {
+    background: transparent;
+    color: var(--primary-gradient-end);
+    outline: 1px solid var(--primary-gradient-end);
+}  
+.component .cards-grid .card:nth-child(2) .link-btn {
+    background: #fff;
+    color: var(--primary-gradient-end);
+    outline: 1px solid #fff;
+}
+.component .cards-grid .card:nth-child(2) .link-btn:hover {
+    background-color: transparent;
+    color: #fff;
+}
